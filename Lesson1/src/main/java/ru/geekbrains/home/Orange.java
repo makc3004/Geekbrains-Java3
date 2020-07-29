@@ -1,6 +1,6 @@
-package ru.geekbrains.hw;
+package ru.geekbrains.home;
 
-public class Orange extends Fruit{
+public class Orange extends Fruit {
     private float weight = 1.5f;
 
     @Override
