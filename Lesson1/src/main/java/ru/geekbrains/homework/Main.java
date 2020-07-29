@@ -105,3 +105,4 @@ public class Main {
         System.out.println("Ящики имеют одинаковый вес - " + boxForApple2.compare(boxForOrange));
     }
 }
+//
