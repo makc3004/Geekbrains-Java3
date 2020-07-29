@@ -1,4 +1,4 @@
-package ru.geekbrains.homework;
+package ru.geekbrains.hw;
 
 public class Apple extends Fruit {
     private float weight = 1.0f;

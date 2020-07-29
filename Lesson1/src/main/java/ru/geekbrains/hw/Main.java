@@ -1,4 +1,4 @@
-package ru.geekbrains.homework;
+package ru.geekbrains.hw;
 
 import java.util.ArrayList;
 import java.util.Arrays;
