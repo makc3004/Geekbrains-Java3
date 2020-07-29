@@ -1,4 +1,4 @@
-package ru.geekbrains.hw;
+package ru.geekbrains.home;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -105,4 +105,3 @@ public class Main {
         System.out.println("Ящики имеют одинаковый вес - " + boxForApple2.compare(boxForOrange));
     }
 }
-//

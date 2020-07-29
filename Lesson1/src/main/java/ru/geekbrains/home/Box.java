@@ -1,4 +1,4 @@
-package ru.geekbrains.hw;
+package ru.geekbrains.home;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,14 +22,15 @@ public class Box<T extends Fruit> {
         fruits.add(fruit);
     }
 
-    public boolean compare(Box box) {
+    public boolean compare(ru.geekbrains.home.Box box) {
         return this.getWeight() == box.getWeight();
     }
 
-    public void intersperseIn(Box<T> box){
+    public void intersperseIn(ru.geekbrains.home.Box<T> box){
         for (T fruit : fruits) {
             box.add(fruit);
         }
         fruits = new ArrayList<>();
     }
 }
+
