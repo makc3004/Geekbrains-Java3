@@ -30,21 +30,4 @@ public class AuthController {
         usersArr.add(new User("alex", "123", "alex-st"));
         return usersArr;
     }
-    private void SaveHistory() throws IOException {              //Сохраняем в файл history.txt
-        try {
-            File history = new File("history.txt");
-            if (!history.exists()) {
-                System.out.println("Файла истории нет,создадим его");
-                history.createNewFile();
-            }
-            PrintWriter fileWriter = new PrintWriter(new FileWriter(history, true));
-
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
 }
