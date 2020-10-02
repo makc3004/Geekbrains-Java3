@@ -2,6 +2,7 @@ package ru.geekbrains.core;
 
 import ru.geekbrains.data.User;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -29,5 +30,4 @@ public class AuthController {
         usersArr.add(new User("alex", "123", "alex-st"));
         return usersArr;
     }
-
 }

@@ -1,0 +1,5 @@
+2020-08-15 21:24:52,204 FATAL   --- [main] ru.geekbrains.Test1Class                 : ru.geekbrains.Test1Class Fatal message
+2020-08-15 21:24:52,210 ERROR   --- [main] ru.geekbrains.Test1Class                 : ru.geekbrains.Test1Class Error message
+2020-08-15 21:24:52,210 WARN    --- [main] ru.geekbrains.Test1Class                 : ru.geekbrains.Test1Class Warn message
+2020-08-15 21:24:52,210 INFO    --- [main] ru.geekbrains.Test1Class                 : ru.geekbrains.Test1Class Info message
+2020-08-15 21:24:52,212 DEBUG   --- [main] ru.geekbrains.Test1Class                 : ru.geekbrains.Test1Class Debug message

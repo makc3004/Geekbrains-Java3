@@ -1,0 +1,11 @@
+2020-08-15 21:24:52,212 INFO    --- [main] ru.geekbrains2.Test2Class                : The some animal value jumped over the lazy target
+2020-08-15 21:24:52,216 INFO    --- [main] ru.geekbrains2.Test2Class                : The some animal value jumped over the lazy target lazy2 target
+2020-08-15 21:24:52,218 ERROR   --- [main] ru.geekbrains2.Test2Class                : Ошибка: Something goes wrong...
+java.lang.RuntimeException: Something goes wrong...
+	at ru.geekbrains2.Test2Class.testLog(Test2Class.java:27)
+	at ru.geekbrains.MainClass.main(MainClass.java:22)
+2020-08-15 21:24:52,220 FATAL   --- [main] ru.geekbrains2.Test2Class                : ru.geekbrains2.Test2Class Fatal message
+2020-08-15 21:24:52,226 ERROR   --- [main] ru.geekbrains2.Test2Class                : ru.geekbrains2.Test2Class Error message
+2020-08-15 21:24:52,226 WARN    --- [main] ru.geekbrains2.Test2Class                : ru.geekbrains2.Test2Class Warn message
+2020-08-15 21:24:52,227 INFO    --- [main] ru.geekbrains2.Test2Class                : ru.geekbrains2.Test2Class Info message
+2020-08-15 21:24:52,227 DEBUG   --- [main] ru.geekbrains2.Test2Class                : ru.geekbrains2.Test2Class Debug message
